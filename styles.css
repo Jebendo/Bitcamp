@@ -1,0 +1,157 @@
+
+ 
+
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,900;1,400&display=swap');
+
+
+
+body{
+    background-color: #e1e8fa;    
+    background-image: url("images/pattern-background-desktop.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+    align-items: center; 
+    /* შეცდომა 1: ამით ვფიქრობდი მთლიანი ქარდის ჩამოწევას მაგრამ არ ჩამოვიდა  */
+}
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main{
+    width: 450px;
+    height: 697px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bluehead{
+    background-image: url("images/illustration-hero.svg");
+    width: 450px;
+    height: 220px;
+    border-radius: 20px 20px 0 0;
+}
+
+.whitebackground{
+    width: 450px;
+    height: 477px;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h1, h3{
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight:900;
+    font-size: 28px;
+    color:#1F2E55;
+}
+
+h3{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    color: #717FA6;
+    text-align:center;
+    
+    
+}
+  /* შეცდომა 2: ვერ ვუთითებ სხვა და სხვა ტექსტს same font with different weights? */
+
+.h3background{
+    margin: 0   auto   0   auto;
+    width: 354px;
+    height:78px;
+}
+
+.plan-background{
+    background-color: #F7F9FF;
+    border-radius: 20px;
+    margin: 0   auto   0   auto;
+    width: 354px;
+    height:98px;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.icon{
+    background-image: url("images/icon-music.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 48px;
+    height:48px;
+}
+
+.plan-price{
+    margin: auto;
+    width: 92px;
+    height:48px;
+    font-family: 'Red Hat Display', sans-serif;
+    /* შეცდომა 3:ეს უნდა იყოს iconთან უფრო ახლოს მაგრამ ჩემსაში შუაშია */
+}
+
+.price{
+    color:#717FA6;
+}
+
+.change{
+    margin: auto;
+    width: 52px;
+    height:19px;
+    color:#382AE1;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.change:hover{
+    color:#766CF1;
+}
+.pmnt-button{
+    width: 354px;
+    height:50px;
+    background-color: #382AE1;
+    border-radius: 10px;
+    box-shadow: 0px 20px 20px 0px #382AE1;
+    /* შეცდომა 4: ვერ გავუწერე პროცენტი გამჭვირვალობის 19.03% */
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+    margin:auto;
+    text-align:center;
+}
+
+.pmnt-button:hover{
+background-color: #766CF1;
+
+}
+.cancel{
+    text-align:center; 
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+    margin:auto;
+    color: #717FA6;
+}
+
+.cancel:hover{
+    color:black;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
