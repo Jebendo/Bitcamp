@@ -1,7 +1,7 @@
 
  
 
-  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,900;1,400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
 
 
 
@@ -13,8 +13,6 @@ body{
     display: flex;
     justify-content: center;
 
-    align-items: center; 
-    /* შეცდომა 1: ამით ვფიქრობდი მთლიანი ქარდის ჩამოწევას მაგრამ არ ჩამოვიდა  */
 }
 div{
     display: flex;
@@ -60,15 +58,12 @@ h1{
 
 h3{
     font-family: 'Red Hat Display', sans-serif;
-    font-weight:400;
+    font-weight:500;
     font-size: 16px;
     color: #717FA6;
     text-align:center;
-    
-    
 }
-  /* შეცდომა 2: ვერ ვუთითებ სხვა და სხვა ტექსტს same font with different weights? */
-
+ 
 .h3background{
     margin: 0   auto   0   auto;
     width: 354px;
@@ -96,7 +91,7 @@ h3{
 }
 
 .plan-price{
-    margin: auto;
+    margin-right: auto;
     width: 92px;
     height:48px;
     font-family: 'Red Hat Display', sans-serif;
@@ -105,6 +100,11 @@ h3{
 
 .price{
     color:#717FA6;
+    font-weight: 500;
+}
+
+.plan{
+    font-weight: 900;
 }
 
 .change{
@@ -115,6 +115,7 @@ h3{
     font-family: 'Red Hat Display', sans-serif;
     font-size: 14px;
     text-decoration: underline;
+    font-weight: 700;
 }
 .change:hover{
     color:#766CF1;
@@ -124,13 +125,13 @@ h3{
     height:50px;
     background-color: #382AE1;
     border-radius: 10px;
-    box-shadow: 0px 20px 20px 0px #382AE1;
-    /* შეცდომა 4: ვერ გავუწერე პროცენტი გამჭვირვალობის 19.03% */
+    box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
     display: flex;
     justify-content: center;
     color: white;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 15px;
+    font-weight: 900;
     margin:auto;
     text-align:center;
 }
@@ -143,6 +144,7 @@ background-color: #766CF1;
     text-align:center; 
     font-family: 'Red Hat Display', sans-serif;
     font-size: 15px;
+    font-weight: 900;
     margin:auto;
     color: #717FA6;
 }
